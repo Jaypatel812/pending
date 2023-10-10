@@ -1,0 +1,61 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#uni-padding{
+    padding: 0px 100px;
+}
+/* main container */
+
+.main-container{
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
+.section-33{
+    float: left;
+    display: flex;
+    text-align: center;
+    width: 33.33%;
+    padding: 30px 0px;
+
+}
+.main-container h4{
+    padding-top: 40px;
+    
+}
+.main-container ul{
+    list-style-type: none;
+   padding-top: 40px;
+    
+}
+.section-33 li{
+    padding-right: 20px;
+}
+.section-33 p{
+    text-align: right !important;
+    padding: 10px 20px;
+    padding-left: 30px;
+}
+.get-srt-free{
+    background-color: #ECE5FF;
+   
+    color: #794CFF;
+    font-weight: 500; 
+}
+
+.discount-ofr{
+    text-align: center;
+    align-items: center;
+}
+.save-btn{
+   background-color: #81C43B;
+   padding: 5px 15px;
+   border-radius: 20px;
+   color: white;
+   font-weight: 500;
+}
